@@ -12,3 +12,4 @@ transitionButton.addEventListener('click', function () {
         window.location.href = 'pagina2.html'; // Redireciona para a próxima página
     }, 500); 
 });
+
