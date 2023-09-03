@@ -18,7 +18,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     border: 2px solid  #16052C;
-    background: linear-gradient(#9B259F, #2d0c58);
+    background: linear-gradient(#6F0E4E, #2d0c58);
     border-radius: 25px;
     width: 80%;
     height: 65%;
@@ -38,16 +38,40 @@
     align-items: center;
     display: flex;
 }
-.skillb{
+.skillb {
     position: relative;
-    border-top: 20px solid #16052C;
-    background: linear-gradient( #2d0c58);
-    top:43%;
+    border-top: 10px solid #16052C;
+    background: linear-gradient(#2d0c58);
+    top: 43%;
     width: 100%;
     height: 40%;
-    align-items: center;
-    display: flex;
+    background-clip: content-box; 
+    padding: 10px; 
+    padding-bottom: 90px;
+    background-color: #16052C;
+    border-radius: 57px;
 }
+.botaoint{
+    position: absolute;
+    top:20%;
+    left: 35%;
+    
+}
+.custom-button {
+    font-size: 34px;
+    border-color: #9B259F;
+    color: #9B259F;
+    border-radius: 20px;
+    transition: background-color 0.4s; 
+}
+
+.custom-button:hover {
+    color: #FFFFFF;
+    background-color: #9B259F; 
+    border-color: #9B259F;
+   
+}
+
 .photo2{
     position: absolute;
     top: 55%;
@@ -66,4 +90,25 @@
     font-family: Iceberg, sans-serif;
     font-size: 18px;
     color: #888888;
+}
+.lista1,.lista2{
+    font-family: 'Iceberg', sans-serif;
+    font-size: x-large;
+    color: white;
+    padding: 14px;
+ 
+ 
+}
+
+.card-descrição{
+    position: absolute;
+    top: 215%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 6px solid #9B259F;
+    border-radius: 20px;
+    width: 80%;
+    height: 45%;
+    
+    overflow: hidden;
 }
