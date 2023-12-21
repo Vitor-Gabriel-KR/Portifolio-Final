@@ -9,7 +9,7 @@
   border: 2px solid #16052C;
   border-radius: 25px;
   overflow: hidden;
-  background: linear-gradient(#6F0E4E, #2d0c58);
+  background: linear-gradient(#6F0E4E, #53040e);
   perspective: 800px;
 }
 
@@ -23,10 +23,10 @@
   height: 100%;
   background: repeating-linear-gradient(
     45deg,
-    #CA1B77,
-    #530e6f 10px,
-    #580c52 10px,
-    #2d0c58 20px
+    #000000,
+    #6B030F 10px,
+    #741520 10px,
+    #6B030F 20px
   );
   opacity: 0.5;
   clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
@@ -44,10 +44,10 @@
   top: 50%;
   left: 12%;
   transform: translate(-50%, -50%);
-  border: 2px solid #16052C;
+  border: 1px solid #000000;
   border-radius: 25px;
   overflow: hidden;
-  background: linear-gradient(#6F0E4E, #2d0c58);
+  background: linear-gradient(#6F0E4E, #4e010a);
   perspective: 800px;
   transition: width 0.5s ease, left 0.5s ease;
 }
@@ -61,10 +61,10 @@
   height: 100%;
   background: repeating-linear-gradient(
     45deg,
-    #CA1B77,
-    #530e6f 10px,
-    #580c52 10px,
-    #2d0c58 20px
+    #000000,
+    #741520 10px,
+    #5c020d 10px,
+    #741520 20px
   );
   opacity: 0.7;
   clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
@@ -82,9 +82,9 @@ input[type="checkbox"]:checked + .intel {
 label {
   width: 45px;
   height: 100%;
-  border: 2px solid #800080;
+  border: 1px solid #000000;
   background-color: transparent;
-  color: #800080;
+  color: #fdfdfd;
   font-size: 16px;
   cursor: pointer;
   position: absolute;
@@ -98,7 +98,7 @@ label {
 }
 
 label:hover {
-  background-color: #800080;
+  background-color: #741520;
   color: #fff;
 }
 

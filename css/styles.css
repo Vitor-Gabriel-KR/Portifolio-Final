@@ -1,7 +1,17 @@
 body {
-    background-color: #16052C; 
+    background: repeating-linear-gradient(       
+        360deg,
+        #5605eeb6 10px,
+        #220942 10px,
+        #050641 10px,
+        #16052C 20px
+    );
+    opacity: 1.0;
+    z-index: -2;
     
-}
+  }
+
+  
 body::-webkit-scrollbar {
     width: 12px; 
 }
