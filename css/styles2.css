@@ -9,7 +9,7 @@
   border: 2px solid #16052C;
   border-radius: 25px;
   overflow: hidden;
-  background: linear-gradient(#6F0E4E, #53040e);
+  background: linear-gradient(#6F0E4E, #da1414);
   perspective: 800px;
 }
 
@@ -24,9 +24,9 @@
   background: repeating-linear-gradient(
     45deg,
     #000000,
-    #6B030F 10px,
-    #741520 10px,
-    #6B030F 20px
+    #eb4b11 10px,
+    #eb4b11 10px,
+    #eb4b11 20px
   );
   opacity: 0.5;
   clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
@@ -47,7 +47,7 @@
   border: 1px solid #000000;
   border-radius: 25px;
   overflow: hidden;
-  background: linear-gradient(#6F0E4E, #4e010a);
+  background: linear-gradient(#6F0E4E, #39077a);
   perspective: 800px;
   transition: width 0.5s ease, left 0.5s ease;
 }
@@ -59,12 +59,14 @@
   left: 0;
   width: 100%;
   height: 100%;
+ 
   background: repeating-linear-gradient(
     45deg,
-    #000000,
-    #741520 10px,
-    #5c020d 10px,
-    #741520 20px
+    #4e0fa1,
+    #39077a 10px,
+    #4e0fa1 10px,
+    #FF7F50 15px
+    
   );
   opacity: 0.7;
   clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
@@ -98,7 +100,7 @@ label {
 }
 
 label:hover {
-  background-color: #741520;
+  background-color: #39077a;
   color: #fff;
 }
 
@@ -177,7 +179,7 @@ input[type="checkbox"]:checked + .intel .contato {
 
 .custom-heading2 {
   font-family: 'Iceberg', sans-serif;
-  color: gray;
+  color: #eb4b11;
 }
 .skillb {
     position: absolute;
@@ -195,16 +197,16 @@ input[type="checkbox"]:checked + .intel .contato {
 
 .custom-button {
     font-size: 34px;
-    border-color: #9B259F;
-    color: #9B259F;
+    border-color: #eb4b11;
+    color: #eb4b11;
     border-radius: 20px;
     transition: background-color 0.4s; 
 }
 
 .custom-button:hover {
     color: #FFFFFF;
-    background-color: #9B259F; 
-    border-color: #9B259F;
+    background-color: #eb4b11; 
+    border-color: #eb4b11;
    
 }
 
@@ -229,7 +231,7 @@ input[type="checkbox"]:checked + .intel .contato {
     top: 230%;
     left: 50%;
     transform: translate(-50%, -50%);
-    border: 6px solid #9B259F;
+    border: 6px solid #FF7F50;
     border-radius: 20px;
     width: 80%;
     height: 45%;
@@ -240,14 +242,14 @@ input[type="checkbox"]:checked + .intel .contato {
     font-family: 'Iceberg', sans-serif;
     font-size: large;
     color: white;
-    border: 9px solid #16052C;
+  
     text-align: center;
 }
 .aptidao{
     font-family: 'Iceberg', sans-serif;
     font-size: large;
     color: white;
-    border: 9px solid #16052C;
+  
     text-align: center;
 }
 
@@ -265,7 +267,7 @@ input[type="checkbox"]:checked + .intel .contato {
   .container .card{
     position: relative;
     width: 125px;
-    background: linear-gradient(0deg,#2d0c58,#6F0E4E);
+    background: linear-gradient(0deg,#eb4b11,#4e0fa1);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -367,7 +369,7 @@ input[type="checkbox"]:checked + .intel .contato {
     width: 100%;
     height: 100%;
     fill: none;
-    stroke: #191919;
+    stroke: #4e0fa1;
     stroke-width: 10;
     stroke-linecap: round;
     transform: translate(5px,5px);

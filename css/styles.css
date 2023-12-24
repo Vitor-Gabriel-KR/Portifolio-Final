@@ -21,19 +21,22 @@ body::-webkit-scrollbar-track {
 }
 
 body::-webkit-scrollbar-thumb {
-    background-color: #9B259F; 
+    background-color: #FF7F50
+    ; 
     border-radius: 6px; 
 }
 
 body::-webkit-scrollbar-thumb:hover {
-    background-color: #7A1E8C; 
+    background-color: #FF7F50
+; 
 } 
 .card-main {
     position: absolute;
     top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
-    border: 6px solid #9B259F;
+    border: 6px solid #FF7F50
+    ;
     border-radius: 10px;
     width: 45%;
     height: 45%;
@@ -53,7 +56,8 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 .port {
-    color: #9B259F;
+    color: #FF7F50
+    ;
 }
 
 .typing-animation {
@@ -103,7 +107,8 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 .custom-line {
-    background-color: #9B259F; 
+    background-color: #FF7F50
+    ; 
     height: 4px; 
     width: 92%; 
     position: absolute;
@@ -169,12 +174,14 @@ body::-webkit-scrollbar-thumb:hover {
 .card-pj {
     left: 7%;
     background-color: #CA1B77;
-    background: linear-gradient(120deg, #CA1B77,  #c21ba6);
+    background: linear-gradient(120deg, #4e0fa1,  #FF7F50
+    );
 }
 
 .card-sm {
     left: 63%;
-    border: 7px solid #9B259F;
+    border: 7px solid #FF7F50
+    ;
 }
 
 .card-pj img,
